@@ -8,11 +8,19 @@
 
 import UIKit
 
+//Step 1 Dont forget to import the Imagebox pod
+import ImageBox
+
 class ViewController: UIViewController {
 
+    //Step : Make the width and height the same value
+    @IBOutlet weak var testImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Step 3 call the roundview
+        testImageView.roundViewWith(borderColor: UIColor.white, borderWidth: 5.0)
+       
     }
 
     override func didReceiveMemoryWarning() {

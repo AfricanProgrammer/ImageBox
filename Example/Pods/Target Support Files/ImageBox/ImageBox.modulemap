@@ -1,0 +1,6 @@
+framework module ImageBox {
+  umbrella header "ImageBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

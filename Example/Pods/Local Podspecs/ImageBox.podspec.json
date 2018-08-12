@@ -1,0 +1,22 @@
+{
+  "name": "ImageBox",
+  "version": "0.1.0",
+  "summary": "A short description of ImageBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AfricanProgrammer/ImageBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AfricanProgrammer": "madzokeren@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AfricanProgrammer/ImageBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImageBox/Classes/**/*"
+}
